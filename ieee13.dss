@@ -16,7 +16,7 @@ new linegeometry.config601 nconds=4 nphases=3 reduce=yes
 ~ cond=1 wire=556500 units=ft x=-1 h=28     
 ~ cond=2 wire=556500 units=ft x=-3.5 h=28
 ~ cond=3 wire=556500 units=ft x=3.5 h=28
-~ cond=4 wire=4/0        units=ft x=0.5 h=24
+~ cond=4 wire=4/0    units=ft x=0.5 h=24
 
 new linegeometry.config602 nconds=4 nphases=3 reduce=yes
 ~ cond=1 wire=4/0 units=ft x=-1 h=28
@@ -135,5 +135,6 @@ new line.671692    Phases=3 Bus1=671   Bus2=692  Switch=y
 set voltagebases=[4.16, 0.48]
 calcvoltagebases
 solve
+
 
 // show voltage LN nodes
