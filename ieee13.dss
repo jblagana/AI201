@@ -123,10 +123,6 @@ new capacitor.cap29 bus1=675.1    phases=1 kvar=600     kV=4.16
 new capacitor.cap30 bus1=680.1    phases=1 kvar=600     kV=4.16
 new capacitor.cap31 bus1=680.1    phases=1 kvar=600     kV=4.16
 new capacitor.cap32 bus1=675.1    phases=1 kvar=600     kV=4.16 
-new capacitor.cap33 bus1=680.1    phases=1 kvar=600     kV=4.16
-new capacitor.cap34 bus1=675.1    phases=1 kvar=600     kV=4.16 
-new capacitor.cap35 bus1=680.1    phases=1 kvar=600     kV=4.16
-
 
 
 !SWITCH
@@ -138,4 +134,5 @@ solve
 
 
 // show voltage LN nodes
+
 
